@@ -40,9 +40,9 @@ public class Lesson2HomeWork {
         return false;
     }
 
-    public static void wordNumber(String str, int n) {
+    public static void wordNumber(String word, int n) {
         for (int i = 1; i <= n; i++) {
-            System.out.println("[" + i + "]" + " " + str);
+            System.out.println("[" + i + "]" + " " + word);
         }
     }
 
